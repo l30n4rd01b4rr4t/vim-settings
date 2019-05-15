@@ -28,6 +28,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'rking/ag.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'neomake/neomake'
+Plugin 'editorconfig/editorconfig-vim'
 
 " Color themes
 Plugin 'Solarized'
