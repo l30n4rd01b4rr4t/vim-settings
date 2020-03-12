@@ -166,6 +166,9 @@ au FileType go nmap <Leader>s <Plug>(go-implements)
 " Strip white space
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Format go files
+au BufWritePost *.go !gofmt -w %
+
 " Rspec
 let g:rspec_command = "!bundle exec rspec {spec}"
 map <Leader>t :call RunCurrentSpecFile()<CR>
