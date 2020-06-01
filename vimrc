@@ -70,7 +70,7 @@ set smartcase
 set hlsearch
 set incsearch
 set list
-set clipboard=unnamed
+set clipboard=unnamedplus
 set autoread
 set confirm
 set hidden
