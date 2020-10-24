@@ -28,6 +28,7 @@ Plugin 'rking/ag.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'neomake/neomake'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'fatih/vim-go'
 
 " Color themes
 Plugin 'Solarized'
@@ -84,7 +85,7 @@ set statusline+=%F
 set laststatus=2
 set background=dark
 syntax on
-colorscheme solarized
+colorscheme jellybeans
 
 " Search
 " set relativenumber
