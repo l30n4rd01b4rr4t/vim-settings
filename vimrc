@@ -29,6 +29,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'neomake/neomake'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'fatih/vim-go'
+Plugin 'zivyangll/git-blame.vim'
 
 " Color themes
 Plugin 'Solarized'
@@ -119,6 +120,9 @@ imap <C-Return> <CR><CR><C-o>k<Tab>
 
 " Vim Nerdtree
 map <f2> :NERDTreeToggle<CR>
+" Show gitblame
+map <f3> :call gitblame#echo()<CR>
+
 
 " Git
 map gs :!git status<CR>
