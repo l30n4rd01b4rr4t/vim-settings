@@ -42,6 +42,10 @@ Plugin 'ironman.vim'
 Plugin 'oceanlight'
 Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
+" Svelte plugins
+Plugin 'othree/html5.vim'
+Plugin 'evanleck/vim-svelte', {'branch': 'main'}
+
 call vundle#end()
 filetype plugin indent on
 
